@@ -1,0 +1,48 @@
+.cointainer {
+    width: 100%;
+}
+@media all and (min-width:992px){
+    .cointainer {
+        width: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .cointainer {
+        width: 100%;
+    }
+    .aside2 {
+        width: 100%;
+        align-items: center;
+        order: 2;
+    }
+    section {
+        width:70%
+    }
+    .aside1 {
+        width: 30%;
+    }
+    footer
+    {
+        order: 2;
+    }
+    
+}
+@media all and (max-width:768px){
+    .cointainer {
+        width:100%;
+    }
+    .aside2 {
+        width: 100%;
+    }
+    .aside1 {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+        order: 1;
+    }
+    footer {
+        order: 1;
+    }
+
+}
